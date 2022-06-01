@@ -29,11 +29,12 @@ Because of this, it was renamed Lotus58, referencing another flower much like th
 
 
 ## Things to note when ordering PCB's
+### Finding the Gerber files
+If you are not aiming at modifying things, don't look for the gerber files in the folders, pretty please!</BR>
+And please don't open yet another issue about it! </BR>
+The gerber files are where they belong, zipped up in releases, look under that header for the version you want.
 
-**If you are not aiming at modifying things, don't look for the gerber files in the folders, pretty please!**
-
-And please don't open yet another issue about it! The gerber files are where they belong, zipped up in releases, look under that header for the version you want.
-
+### Tips & Tricks
 - Most PCB manufacturers have a MOQ of 5 PCB's, meaning you end up with 2½ keyboards when finished.
 - The recommended PCB thickness is 1.6 mm, both for the main PCB and plates to allow the keyswitches to grip the plate and lock in place securely.
 
