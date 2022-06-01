@@ -1,39 +1,7 @@
 # Lotus 58 v1.11
 
-Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
-
-Because of this, it was renamed Lotus58, referencing another flower much like the lily in the name Lily58.
-
-# Lotus 58 Glow
-
 ![Lotus 58 Glow](https://preview.redd.it/7apgomy67qf61.jpg?width=4032&format=pjpg&auto=webp&s=ce1f045339149a99311582d44b458c88c2b167a3)
 (photo from reddit by u/bduzik)
-
-
-- Layout very similar to the original Lily58 family
-- Per key RGB and RGB underglow
-- Kaihl Hot-swap sockets for MX compatible switches
-- Can be used as a standalone Gamepad for either hand
-- Optional 0.91" OLED Screens and rotary encoders (one each per side)
-- All components through-hole and easily soldered for beginners (SMD option for diodes)
-- Designed with a sandwich-style plate/case as part of the design
-
-
-# Layout variations
-
-- Optional plate layout with OLED screen (Encoder can be placed on upper thumb key position)
-- Optional plate layout with rotary encoder (Removes OLED screen for that side)  
-- Optional plate layout with no hole for OLED or upper encoder (Encoder can be placed on upper thumb key position)
-
-
-
-![Layout variations](https://raw.githubusercontent.com/4EBOOT/Lotus58/Glow/Glow/Image/layout_variations.png "Layout Variations")
-
-
-
-
-
-
 
 # Parts needed
 
@@ -58,13 +26,3 @@ Because of this, it was renamed Lotus58, referencing another flower much like th
 | Rotary Encoder | 0-2 | ✔ | Qty. depends on layout. | [link](https://www.aliexpress.com/item/10000056483250.html?spm=a2g0o.productlist.0.0.64951c5fKcPiug&algo_pvid=b530d9b1-fbd2-4598-bf53-bece1343826f&algo_expid=b530d9b1-fbd2-4598-bf53-bece1343826f-2&btsid=2100bdd016135510210168102eefcc&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | Rotary Encoder Knob | 0-2 | ✔ | One needed for each encoder. Clearance for max 24 mm diameter, pick halfshaft or spline according to encoder choice.  | [link](https://www.aliexpress.com/item/10000056483250.html?spm=a2g0o.productlist.0.0.64951c5fKcPiug&algo_pvid=b530d9b1-fbd2-4598-bf53-bece1343826f&algo_expid=b530d9b1-fbd2-4598-bf53-bece1343826f-2&btsid=2100bdd016135510210168102eefcc&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | SK6812 mini (3535) | 56-70 | ✔ | Qty. depends on layout. Optional 12 pcs required for underglow. | [link](https://www.aliexpress.com/item/-/4001361956752.html?spm=a2g0s.8937460.0.0.6f132e0eCg84IE&_ga=2.137862832.1036705865.1612730332-979734211.1611132916&_gac=1.14797764.1611132916.CjwKCAiAxp-ABhALEiwAXm6IyZF-HtTdP3MQioG5GOxLvsaJfBbhqTGIQbmV0LXKDx2MZSDJJJTbaBoCPkoQAvD_BwE) |
-
-# Things to note when ordering PCB's
-
-**If you are not aiming at modifying things, don't look for the gerber files in the folders, pretty please! And don't open yet another issue about it! The gerber files are where they belong, zipped up in releases.**
-
-Most PCB manufacturers have a MOQ of 5 PCB's, meaning you end up with 2½ keyboards when finished. To make it possible to build Lotus58 at a reasonable cost, the plate designs use breakaway parts and can easily double as a backplate. For instance, 5 PCB's + 5 OLED plates + 5 Encoder plates give you a couple of options without being wasteful.  
-
-The recommended PCB thickness is 1.6 mm, as the thickness of the SK6812mini RGB LED's are in fact 1.6 mm, making them sit flush 'inside' the PCB and easier to solder. Similarly, for the top plate, a thickness of 1.6 mm is recommended to allow the keyswitches to grip the plate and lock in place securely.
-
-If ordering from [JLPCB](https://www.jlpcb.com) the plate Gerber files include a reference putting the added serial etc on a breakaway part for a clean look with minimal cost, if using another manufacturer it's possible they have additional fee's for removing the extra text, or you should consider plotting the Gerber files yourself with the correct reference for your manufacturer.
