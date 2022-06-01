@@ -3,6 +3,11 @@
 ![Lotus 58 Glow](https://preview.redd.it/7apgomy67qf61.jpg?width=4032&format=pjpg&auto=webp&s=ce1f045339149a99311582d44b458c88c2b167a3)
 (photo from reddit by u/bduzik)
 
+**The initial (First error free) release of the PCB and plates.** 
+Uses SK6812 mini RGB's for all functions, making it a bit more challenging for beginners to solder. 
+
+#### v1.1x branch is no longer developed or updated.
+
 # Parts needed
 
 
