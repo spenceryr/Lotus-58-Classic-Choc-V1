@@ -41,10 +41,14 @@ Fully compatabile with v1.11, physically identical outline for plates etc. and i
 | SK6812 mini-E (3535) | 56-58 | ✔ | Qty. depends on layout. Mini E are winged for easier soldering. | [link](https://www.aliexpress.com/item/4000475685852.html?spm=a2g0o.productlist.0.0.3ec76d0aSbZSMy&algo_pvid=c175ec6d-d797-4bad-885d-dd7ab2025889&algo_expid=c175ec6d-d797-4bad-885d-dd7ab2025889-1&btsid=0b0a01f816148497094017930e33f7&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | SK6812 mini (3535) | 12 | ✔ | For underglow, note that Mini E version does not fit here. | [link](https://www.aliexpress.com/item/-/4001361956752.html?spm=a2g0s.8937460.0.0.6f132e0eCg84IE&_ga=2.137862832.1036705865.1612730332-979734211.1611132916&_gac=1.14797764.1611132916.CjwKCAiAxp-ABhALEiwAXm6IyZF-HtTdP3MQioG5GOxLvsaJfBbhqTGIQbmV0LXKDx2MZSDJJJTbaBoCPkoQAvD_BwE) |
 
-# Things to note when ordering PCB's
+## Things to note when ordering PCB's
+### Finding the Gerber files
+If you are not aiming at modifying things, don't look for the gerber files in the folders, pretty please!</BR>
+And please don't open yet another issue about it! </BR>
+The gerber files are where they belong, zipped up in releases, look under that header for the version you want.
 
-Most PCB manufacturers have a MOQ of 5 PCB's, meaning you end up with 2½ keyboards when finished. To make it possible to build Lotus58 at a reasonable cost, the plate designs use breakaway parts and can easily double as a backplate. For instance, 5 PCB's + 5 OLED plates + 5 Encoder plates give you a couple of options without being wasteful.  
+### Tips & Tricks
+- Most PCB manufacturers have a MOQ of 5 PCB's, meaning you end up with 2½ keyboards when finished.
+- The recommended PCB thickness is 1.6 mm, both for the main PCB and plates to allow the keyswitches to grip the plate and lock in place securely.
 
-The recommended PCB thickness is 1.6 mm, as the thickness of the SK6812mini RGB LED's are in fact 1.6 mm, making them sit flush 'inside' the PCB and easier to solder. Similarly, for the top plate, a thickness of 1.6 mm is recommended to allow the keyswitches to grip the plate and lock in place securely.
-
-If ordering from [JLPCB](https://www.jlpcb.com) the plate Gerber files include a reference putting the added serial etc on a breakaway part for a clean look with minimal cost, if using another manufacturer it's possible they have additional fee's for removing the extra text, or you should consider plotting the Gerber files yourself with the correct reference for your manufacturer.
+If ordering from [JLPCB](https://www.jlpcb.com) the plate Gerber files include a reference putting the added serial etc on a breakaway part for a clean look with minimal cost, if using another manufacturer it's possible they have additional fee's for removing the extra text, or you should consider plotting the Gerber files yourself with the correct reference for your manufacturer. Otherwise use the standard settings from JLPCB.
