@@ -10,29 +10,10 @@ Because of this, it was renamed Lotus58, referencing another flower much like th
 (photo from reddit by u/bduzik)
 
 
-- Layout very similar to the original Lily58 family
-- Per key RGB and RGB underglow
-- Kaihl Hot-swap sockets for MX compatible switches
-- Can be used as a standalone Gamepad for either hand
-- Optional 0.91" OLED Screens and rotary encoders (one each per side)
-- All components through-hole and easily soldered for beginners (SMD option for diodes)
-- Designed with a sandwich-style plate/case as part of the design
+**The second mayor release of the PCB and plates.** 
+Uses winged SK6812mini-E RGB for easier build, along with SK6812 mini RGB for underglow. Revamped RGB to allow easier use of underglow and per-key separate or combined. Added support for battery cut-off switch for easy wireless builds with nice!nano. Several minor tweaks.
 
-
-# Layout variations
-
-- Optional plate layout with OLED screen (Encoder can be placed on upper thumb key position)
-- Optional plate layout with rotary encoder (Removes OLED screen for that side)  
-- Optional plate layout with no hole for OLED or upper encoder (Encoder can be placed on upper thumb key position)
-
-
-
-![Layout variations](https://raw.githubusercontent.com/4EBOOT/Lotus58/Glow/Glow/Image/layout_variations.png "Layout Variations")
-
-
-
-
-
+Fully compatabile with v1.11, physically identical outline for plates etc. and identical Firmware.
 
 
 # Parts needed
