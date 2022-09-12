@@ -40,11 +40,11 @@ The gerber files are where they belong, zipped up in releases, look under that h
 
 If ordering from [JLPCB](https://www.jlpcb.com) the plate Gerber files include a reference putting the added serial etc on a breakaway part for a clean look with minimal cost, if using another manufacturer it's possible they have additional fee's for removing the extra text, or you should consider plotting the Gerber files yourself with the correct reference for your manufacturer. Otherwise use the standard settings from JLPCB.
 
-# Buy a kit!
+## Buy a kit!
 I sell complete kits, making it easy to build your keyboard, and it also supports prototypes for new wacky ones. 
 
 Have a look here:
 [My Store](https://lectronz.com/stores/tweetys-wild-thinking)
 
-### Discord for build help and discussions!
+## Discord for build help and discussions!
 https://discord.gg/G6QzcJQUnm
