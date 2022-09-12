@@ -43,8 +43,8 @@ If ordering from [JLPCB](https://www.jlpcb.com) the plate Gerber files include a
 ## Buy a kit!
 I sell complete kits, making it easy to build your keyboard, and it also supports prototypes for new wacky ones. 
 
-Have a look here:
-[My Store](https://lectronz.com/stores/tweetys-wild-thinking)
+<a href="https://lectronz.com/stores/tweetys-wild-thinking"><img alt="Buy it on Lectronz" src="https://lectronz.com/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 ## Discord for build help and discussions!
-https://discord.gg/G6QzcJQUnm
+
+<a href="https://discord.gg/G6QzcJQUnm"><img alt="Discuss on Discord" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/625eb604bb8605784489d361_Discord-Logo%2BWordmark-Color%20(1).png" width="219" height="60"/></a>
