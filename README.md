@@ -45,3 +45,6 @@ I sell complete kits, making it easy to build your keyboard, and it also support
 
 Have a look here:
 [My Store](https://lectronz.com/stores/tweetys-wild-thinking)
+
+### Discord for build help and discussions!
+https://discord.gg/G6QzcJQUnm
