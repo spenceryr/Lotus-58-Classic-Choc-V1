@@ -2,8 +2,9 @@
 VIAL firmware for a standard Pro Micro with a Caterina Bootloader
 
 ### lotus58_vial_nanoBoot.hex
-VIAL firmware for a Pro Micro with a nanoBoot bootloaer.
+VIAL firmware for a Pro Micro with a nanoBoot bootloader already flashed.
 
+### PRODUCTION_lotus58_vial_nanoBoot.hex
 This needs to be flashed using an ISP programmer, as it contains BOTH the bootloader and firmware in one Single .HEX file.
 
 Best flashed with avrdude.
@@ -14,5 +15,7 @@ Best flashed with avrdude.
 - hfuse memory = 0xD6 (EESAVE=0, BOOTRST=0)
 - efuse memory = 0xC7 (=0xF7, No BOD)
 
-##### -U lfuse:w:0x7F:m -U hfuse:w:0xD6:m -U efuse:w:0xC7:m
+#### Example of fuse command
+
+-U lfuse:w:0x7F:m -U hfuse:w:0xD6:m -U efuse:w:0xC7:m
 
