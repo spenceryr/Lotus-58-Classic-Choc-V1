@@ -7,6 +7,8 @@ Glow/PCB/MX/bom.ini
 *Render*
 
 *Gerber*
+*Render*
+
 *.gto
 *.gts
 *.gtl
@@ -15,3 +17,7 @@ Glow/PCB/MX/bom.ini
 *.gbl
 *.gbs
 *.gto
+
+
+
+
