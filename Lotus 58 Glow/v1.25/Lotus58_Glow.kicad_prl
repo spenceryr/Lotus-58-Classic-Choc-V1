@@ -1,8 +1,8 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Copper Layers",
-    "auto_track_width": false,
+    "active_layer_preset": "",
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "0001000_ffffffff",
+    "visible_layers": "000d030_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Lotus58_C.kicad_prl",
+    "filename": "Lotus58_Glow.kicad_prl",
     "version": 3
   },
   "project": {

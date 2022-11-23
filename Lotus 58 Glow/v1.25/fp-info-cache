@@ -1,4 +1,4 @@
-20489450960939177
+20499478660577765
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56686,6 +56686,20 @@ ProMicro-FrontSide
 24
 24
 Keyboard Controllers
+ProMicro_Reversible
+
+
+0
+24
+3
+Keyboard Controllers
+ProMicro_Reversible_orig
+
+
+0
+48
+24
+Keyboard Controllers
 WeAct_BlackPill_3
 Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
 module BlluePill Blue Pill header SWD breakout
@@ -56917,6 +56931,13 @@ MX,cherry,gateron,kailh
 4
 2
 Keyboard_Plate
+Amphenol_M8S-03PMMR-SF8001
+M8 Male connector for panel, 90° PCB mount (https://www.amphenolltw.com/2012download/2D%20PDF/03_M%20Series%20Sensor%20Connectors/M8S-XXPMMR-SF8001.pdf)
+three-pin M8
+0
+0
+0
+Keyboard_Plate
 OLED Placeholder
 
 
@@ -56924,7 +56945,28 @@ OLED Placeholder
 0
 0
 Keyboard_Plate
+Plate_Split_Backspace
+MX-style stabilizer mount
+MX,cherry,gateron,kailh,pg1511,stabilizer,stab
+0
+0
+0
+Keyboard_Plate
+SPECIAL
+MX-style stabilizer mount
+MX,cherry,gateron,kailh,pg1511,stabilizer,stab
+0
+0
+0
+Keyboard_Plate
 SW_MX_Plate_Placeholder
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+0
+0
+Keyboard_Plate
+SW_MX_Plate_Placeholder_nodrill
 MX-style keyswitch with reversible Kailh socket mount
 MX,cherry,gateron,kailh,pg1511,socket
 0
