@@ -1,3 +1,5 @@
+### Notice! PCB and Schematic files in the branch 'development' are work in progress, completely untested and in NO way intended to produce any PCB's from! Version numbers in development have no useful meaning and may change without any warning or rime and reason! Beware!
+
 # Lotus 58 Glow
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
