@@ -1,3 +1,5 @@
+### Notice! PCB and Schematic files in the branch 'release' are tested and completed versions, the completed Gerber files are available as releases under that header!
+
 # Lotus 58 Glow
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
