@@ -1,3 +1,5 @@
+### Notice! PCB and Schematic files in the branch 'prototype' are work in progress, untested and in NO way intended to produce PCB's from! Version numbers are assigned as the design version enters prototype, so it can be referenced as such, but 'failed' versions will not move on to production, and files will be removed! Beware!
+
 # Lotus 58 Glow
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
