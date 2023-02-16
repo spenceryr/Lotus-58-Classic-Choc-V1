@@ -3,11 +3,14 @@ All preconfigured firmewares are based on [VIAL](https://get.vial.today), and wi
 #### Notice!
 Compiling from source in Vial-QMK is slightly more advanced than QMK, and likely unnecessary as Vial's intended use is through the app. For this reason most normal users, it is recommended to flash a precompiled firmware. 
 
-### lotus58_vial_caterina.hex
-VIAL firmware for a standard Pro Micro with a Caterina Bootloader
+### lotus58_atmel_vial.hex
+VIAL firmware for Elite C or equivalent with an Atmel-DFU Bootloader
 
-### lotus58_vial_nanoBoot.hex
-VIAL firmware for a Pro Micro with a nanoBoot bootloader already flashed. (Note that this is too big to flash onto a Pro Micro with a Caterina bootloader)
+### lotus58_caterina_vial.hex
+VIAL firmware for Pro Micro with an Caterina Bootloader
+
+### lotus58_nanoBoot_vial.hex
+VIAL firmware for Pro Micro with an nanoBoot bootloader already flashed. (Note that this is will NOT flash onto a Pro Micro with a Caterina bootloader)
 
 ### PRODUCTION_lotus58_vial_nanoBoot.hex
 This needs to be flashed using an ISP programmer, as it contains BOTH the nanoBoot boot-loader and firmware in one Single .HEX file.
