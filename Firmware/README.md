@@ -1,7 +1,7 @@
 ## Available precompiled firmware files.
 All preconfigured firmewares are based on [VIAL](https://get.vial.today), and with the most common options enabled, more or less the way I use the keyboard myself (Some minor tweaks, as I'm Swedish, so I'm using a few characters that isn't used in English). Feel free to edit or re-invent the firmware as you please, its available as source [here](https://github.com/TweetyDaBird/vial-qmk).
 #### Notice!
-Compiling from source in Vial-QMK is slightly more advanced than QMK, and likely unneccessry as Vial's intended use is through the app. For this reason most normal users, it is recommended to flash a precompiled firmware. 
+Compiling from source in Vial-QMK is slightly more advanced than QMK, and likely unnecessary as Vial's intended use is through the app. For this reason most normal users, it is recommended to flash a precompiled firmware. 
 
 ### lotus58_vial_caterina.hex
 VIAL firmware for a standard Pro Micro with a Caterina Bootloader
