@@ -3,25 +3,20 @@ All preconfigured firmewares are based on [VIAL](https://get.vial.today), and wi
 
 **Notice!** *Compiling from source in Vial-QMK is slightly more advanced than QMK, and likely unnecessary as Vial's intended use is through the app. For this reason, for most normal users it is recommended to flash a precompiled firmware.*
 
-### lotus58_atmel_vial.hex
+### Atmel-DFU
 VIAL firmware for Elite C or equivalent with an Atmel-DFU Bootloader
 
-### lotus58_caterina_vial.hex
+### Caterina
 VIAL firmware for Pro Micro with an Caterina Bootloader
 
-### lotus58_nanoBoot_vial.hex
+### nanoBoot
 VIAL firmware for Pro Micro with an nanoBoot bootloader already flashed. (Note that this is will NOT flash onto a Pro Micro with a Caterina bootloader)
 
-### PRODUCTION_lotus58_vial_nanoBoot.hex
-This needs to be flashed using an ISP programmer, as it contains BOTH the nanoBoot boot-loader and firmware in one Single .HEX file.
+### Production Firmware
+This needs to be flashed using an ISP programmer, as it contains BOTH the nanoBoot boot-loader and firmware in one single .HEX file. To be used when switching to nanoBoot boot-loader.
 
 ## Why nanoBoot?
 nanoBoot is a tiny (512k) HID type bootloader derived from the LUFA project, and it gives a whole lot more usable memory compared to the more full featured bootloaders at five times the size or more. This is important overall using the Atmega32u4 as it is limited on memory to start with, but even more so when using [VIAL](https://get.vial.today), as that takes a bit more memory than QMK for the dynamic, realtime remapping available [here](https://vial.rocks).
-
-## I want to use QMK instead.
-Well... Go [here](https://github.com/TweetyDaBird/qmk_firmware) then, and have fun!
-
-**Notice!** *Since Lotus 58 Glow currently isnt merged into QMK's main branch, flashing/compiling from source is slightly more advanced, and requires some basic knowledge yourself. The published source is as-is, with no expressed warranty, and no promised timeline on maintaining updates with QMK's updates. If you find errors, feel free to update and fix them, and I will happily test and merge them for all to use.*
 
 ## Flashing the production firmware
 
@@ -37,3 +32,7 @@ This is best flashed with avrdude or similar and requires either a dedicated har
 
 -U lfuse:w:0x7F:m -U hfuse:w:0xD6:m -U efuse:w:0xC7:m
 
+## I want to use QMK instead.
+Well... Go [here](https://github.com/TweetyDaBird/qmk_firmware) then, and have fun!
+
+**Notice!** *Since Lotus 58 Glow currently isnt merged into QMK's main branch, flashing/compiling from source is slightly more advanced, and requires some basic knowledge yourself. The published source is as-is, with no expressed warranty, and no promised timeline on maintaining updates with QMK's updates. If you find errors, feel free to update and fix them, and I will happily test and merge them for all to use.*
