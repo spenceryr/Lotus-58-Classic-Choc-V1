@@ -1,7 +1,7 @@
 ## Available precompiled firmware files.
 All preconfigured firmewares are based on [VIAL](https://get.vial.today), and with the most common options enabled, more or less the way I use the keyboard myself (Some minor tweaks, as I'm Swedish, so I'm using a few characters that isn't used in English). Feel free to edit or re-invent the firmware as you please, its available as source [here](https://github.com/TweetyDaBird/vial-qmk).
-#### Notice!
-Compiling from source in Vial-QMK is slightly more advanced than QMK, and likely unnecessary as Vial's intended use is through the app. For this reason most normal users, it is recommended to flash a precompiled firmware. 
+
+**Notice!** *Compiling from source in Vial-QMK is slightly more advanced than QMK, and likely unnecessary as Vial's intended use is through the app. For this reason, for most normal users it is recommended to flash a precompiled firmware.*
 
 ### lotus58_atmel_vial.hex
 VIAL firmware for Elite C or equivalent with an Atmel-DFU Bootloader
@@ -21,8 +21,7 @@ nanoBoot is a tiny (512k) HID type bootloader derived from the LUFA project, and
 ## I want to use QMK instead.
 Well... Go [here](https://github.com/TweetyDaBird/qmk_firmware) then, and have fun!
 
-#### Notice!
-Since Lotus 58 Glow currently isnt merged into QMK's main branch, flashing/compiling from source is slightly more advanced, and requires some basic knowledge yourself. The published source is as-is, with no expressed warranty, and no promised timeline on maintaining updates with QMK's updates. If you find errors, feel free to update and fix them, and I will happily test and merge them for all to use. 
+**Notice!** *Since Lotus 58 Glow currently isnt merged into QMK's main branch, flashing/compiling from source is slightly more advanced, and requires some basic knowledge yourself. The published source is as-is, with no expressed warranty, and no promised timeline on maintaining updates with QMK's updates. If you find errors, feel free to update and fix them, and I will happily test and merge them for all to use.*
 
 ## Flashing the production firmware
 
