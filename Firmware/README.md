@@ -1,5 +1,7 @@
 ## Available precompiled firmware files.
 All preconfigured firmewares are based on [VIAL](https://get.vial.today), and with the most common options enabled, more or less the way I use the keyboard myself (Some minor tweaks, as I'm Swedish, so I'm using a few characters that isn't used in English). Feel free to edit or re-invent the firmware as you please, its available as source [here](https://github.com/TweetyDaBird/vial-qmk).
+#### Notice!
+Compiling from source in Vial-QMK is slightly more advanced than QMK, and likely ineccesary as Vial's intended use is through the app. For this reason most normal users, it is recommended to use a precompiled firmware. 
 
 ### lotus58_vial_caterina.hex
 VIAL firmware for a standard Pro Micro with a Caterina Bootloader
@@ -8,17 +10,17 @@ VIAL firmware for a standard Pro Micro with a Caterina Bootloader
 VIAL firmware for a Pro Micro with a nanoBoot bootloader already flashed. (Note that this is too big to flash onto a Pro Micro with a Caterina bootloader)
 
 ### PRODUCTION_lotus58_vial_nanoBoot.hex
-This needs to be flashed using an ISP programmer, as it contains BOTH the bootloader and firmware in one Single .HEX file.
+This needs to be flashed using an ISP programmer, as it contains BOTH the nanoBoot boot-loader and firmware in one Single .HEX file.
 
 ## Why nanoBoot?
-nanoBoot is a tiny (512kB) HID type bootloader derived from the LUFA project, and it gives a whole lot more usable memory compared to the more full featured bootloaders at five times the size or more. This is important overall using the Atmega32u4 as it is limited on memory to start with, but even more so when using [VIAL](https://get.vial.today), as that takes a bit more memory than QMK for the dynamic, realtime remapping available [here](https://vial.rocks).
+nanoBoot is a tiny (512k) HID type bootloader derived from the LUFA project, and it gives a whole lot more usable memory compared to the more full featured bootloaders at five times the size or more. This is important overall using the Atmega32u4 as it is limited on memory to start with, but even more so when using [VIAL](https://get.vial.today), as that takes a bit more memory than QMK for the dynamic, realtime remapping available [here](https://vial.rocks).
 
 ## I want to use QMK instead.
 Well... Go [here](https://github.com/TweetyDaBird/qmk_firmware) then, and have fun!
 
 ## Flashing the production firmware
 
-This is best flashed with avrdude or similar.
+This is best flashed with avrdude or similar and requires either a dedicated hardware ICSP or a second Arduino acting as one.  
 
 #### Fuse Settings:
 
