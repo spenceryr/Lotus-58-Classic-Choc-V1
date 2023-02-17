@@ -1,10 +1,9 @@
-
-Glow/PCB/MX/bom.ini
-*.zip
-*.gbr
-*.drl
-
 *Gerber*
+*Render*
+
+*.zip
+
+*.gbr
 *.gto
 *.gts
 *.gtl
@@ -12,5 +11,4 @@ Glow/PCB/MX/bom.ini
 *.gbo
 *.gbl
 *.gbs
-*.gto
-PCB\Gerber\
+*.drl
