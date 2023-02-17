@@ -1,4 +1,4 @@
-# Lotus 58 v1.23
+# Lotus 58 v1.24
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
 
@@ -10,10 +10,17 @@ Because of this, it was renamed Lotus58, referencing another flower much like th
 (photo from reddit by u/bduzik)
 
 
-**The second mayor release of the PCB and plates.** 
-Uses winged SK6812mini-E RGB for easier build, along with SK6812 mini RGB for underglow. Revamped RGB to allow easier use of underglow and per-key separate or combined. Added support for battery cut-off switch for easy wireless builds with nice!nano. Several minor tweaks.
+**v1.24 - The third major release of the PCB and plates.** 
 
-Fully compatabile with v1.11, physically identical outline for plates etc. and identical Firmware.
+- Added Silkscreen build instructions
+- Added TRRS ESD protection
+- Removed i2c resistors
+- Repositioned reset for easier access
+- Minor cleanup of routing and silkscreen
+
+v1.23 uses winged SK6812mini-E RGB for easier build, along with SK6812 mini RGB for underglow. Revamped RGB to allow easier use of underglow and per-key separate or combined. Added support for battery cut-off switch for easy wireless builds with nice!nano. Several minor tweaks.
+
+Fully compatabile with v1.11 & v1.23, physically identical outline for plates etc. and identical Firmware.
 
 
 # Parts needed
