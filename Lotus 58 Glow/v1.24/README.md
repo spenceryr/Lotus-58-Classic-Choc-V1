@@ -25,7 +25,7 @@ Fully compatabile with v1.11 & v1.23, physically identical outline for plates et
 
 # Parts needed
 
-### Please note that all links are to vendors that can update/change or remove the parts linked at their convenience. Links are intended as _examples_ of the part needed, and sometimes the listing has options for multiple parts. And, if the listing is updated, it may not be showing the correct part. As such, it is your own responsibility to verify that what you are purchasing is consistent with the description. 
+Please note that all links are to vendors that can update/change or remove the parts linked at their convenience. Links are intended as _examples_ of the part needed, and sometimes the listing has options for multiple parts. And, if the listing is updated, it may not be showing the correct part. As such, **it is your own responsibility to verify that what you are purchasing is consistent with the description.**
 
 | Name of part | Qty. | Optional | Remarks | Aliexpress |
 | ------------ | ---- | -------- | ------- | --------------- |
