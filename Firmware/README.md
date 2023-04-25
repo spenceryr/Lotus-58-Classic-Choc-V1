@@ -7,18 +7,15 @@ All preconfigured firmewares are based on [VIAL](https://get.vial.today), and wi
 VIAL firmware for Elite C or equivalent with an Atmel-DFU Bootloader
 
 ### Caterina
-VIAL firmware for Pro Micro with an Caterina Bootloader
+VIAL firmware for Pro Micro with an Caterina Bootloader (This is the default boot-loader for a Pro Micro!)
 
 ### nanoBoot
-VIAL firmware for Pro Micro with an nanoBoot bootloader already flashed. (Note that this is will NOT flash onto a Pro Micro with a Caterina bootloader)
-
-### Production Firmware
-This needs to be flashed using an ISP programmer, as it contains BOTH the nanoBoot boot-loader and firmware in one single .HEX file. To be used when switching to nanoBoot boot-loader.
+VIAL firmware for Pro Micro with an nanoBoot bootloader already flashed. (Note that this should NOT be flashed onto a Pro Micro with a Caterina bootloader!)
 
 ## Why nanoBoot?
 nanoBoot is a tiny (512k) HID type bootloader derived from the LUFA project, and it gives a whole lot more usable memory compared to the more full featured bootloaders at five times the size or more. This is important overall using the Atmega32u4 as it is limited on memory to start with, but even more so when using [VIAL](https://get.vial.today), as that takes a bit more memory than QMK for the dynamic, realtime remapping available [here](https://vial.rocks).
 
-## Flashing the production firmware
+## Flashing the boot-loader
 
 This is best flashed with avrdude or similar and requires either a dedicated hardware ICSP or a second Arduino acting as one.  
 
