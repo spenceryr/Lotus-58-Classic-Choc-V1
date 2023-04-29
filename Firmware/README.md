@@ -15,20 +15,6 @@ VIAL firmware for Pro Micro with an nanoBoot bootloader already flashed. (Note t
 ## Why nanoBoot?
 nanoBoot is a tiny (512k) HID type bootloader derived from the LUFA project, and it gives a whole lot more usable memory compared to the more full featured bootloaders at five times the size or more. This is important overall using the Atmega32u4 as it is limited on memory to start with, but even more so when using [VIAL](https://get.vial.today), as that takes a bit more memory than QMK for the dynamic, realtime remapping available [here](https://vial.rocks).
 
-## Flashing the boot-loader
-
-This is best flashed with avrdude or similar and requires either a dedicated hardware ICSP or a second Arduino acting as one.  
-
-#### Fuse Settings:
-
-- lfuse memory = 0xFF or 0x7F (CKDIV8=1 or 0, 16CK+65ms)
-- hfuse memory = 0xD6 (EESAVE=0, BOOTRST=0)
-- efuse memory = 0xC7 (=0xF7, No BOD)
-
-#### Example of fuse command
-
--U lfuse:w:0x7F:m -U hfuse:w:0xD6:m -U efuse:w:0xC7:m
-
 ## I want to use QMK instead.
 Well... Go [here](https://github.com/TweetyDaBird/qmk_firmware) then, and have fun!
 
