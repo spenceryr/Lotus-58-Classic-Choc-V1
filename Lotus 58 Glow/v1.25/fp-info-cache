@@ -1,4 +1,4 @@
-20499478660577765
+20553310899788040
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56588,12 +56588,26 @@ Keyboard Common
 0
 0
 Keyboard Common
+Diode_DO35_SOD123
+Diode, DO-41, SOD81, Horizontal, RM 10mm,
+Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,
+0
+4
+2
+Keyboard Common
 HRO_TYPE-C-31-M-12
 
 
 0
-16
-14
+20
+18
+Keyboard Common
+JST_PH_2_Breakout
+JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+6
+2
 Keyboard Common
 Jumper_Mini
 
@@ -56637,6 +56651,20 @@ ProMicro
 24
 24
 Keyboard Common
+RESISTOR_Reversible
+Resitance 3 pas
+R
+0
+2
+2
+Keyboard Common
+Resistors dual sided
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+Keyboard Common
 SOP127P600X175-9N
 
 
@@ -56644,11 +56672,25 @@ SOP127P600X175-9N
 9
 9
 Keyboard Common
+SOT95P280X145-6N
+
+
+0
+6
+6
+Keyboard Common
 SSD1306-0.91-OLED-4pin-128x32
 
 
 0
 4
+4
+Keyboard Common
+SSD1306-0.91-OLED-4pin-128x32 doublesided
+
+
+0
+28
 4
 Keyboard Common
 Spacer PCB hole
@@ -56664,6 +56706,20 @@ TP4056-18650
 0
 6
 6
+Keyboard Common
+TYPE-C-31-M-14
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+20
+17
+Keyboard Common
+YTS-A002
+
+
+0
+4
+3
 Keyboard Common
 nice!view
 Connecteur 6 pins
@@ -56698,6 +56754,13 @@ ProMicro_Reversible_orig
 
 0
 48
+24
+Keyboard Controllers
+ProMicro_jumpers
+Pro Micro footprint
+promicro ProMicro
+0
+168
 24
 Keyboard Controllers
 WeAct_BlackPill_3
@@ -56782,6 +56845,20 @@ https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
 LED RGB NeoPixel Mini
 0
 4
+4
+Keyboard RGB
+LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm
+https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini
+0
+4
+4
+Keyboard RGB
+LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mmdouble
+https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini
+0
+8
 4
 Keyboard RGB
 MINI_E_placeholder
@@ -56938,6 +57015,13 @@ three-pin M8
 0
 0
 Keyboard_Plate
+MountingHole_2.5mm_Pad_TopOnly
+Mounting Hole 2.5mm
+mounting hole 2.5mm
+0
+2
+1
+Keyboard_Plate
 OLED Placeholder
 
 
@@ -56980,12 +57064,96 @@ mounting hole 2.5mm no annular
 0
 0
 Keyboard_Plate
+Spacer_Plate_Grounded
+Mounting Hole 2.5mm
+mounting hole 2.5mm
+0
+2
+1
+Keyboard_Plate
+Special 4u center
+Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
+Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
+0
+0
+0
+Keyboard_Plate
+Special 4u center (copper)
+Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
+Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
+0
+0
+0
+Keyboard_Plate
+Special 6u center
+Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
+Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
+0
+0
+0
+Keyboard_Plate
 Stabilizer_Cherry_MX_2.00u_PLate
 Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u
 Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout
 0
 0
 0
+LCSC_Library
+ESOP-8_3.9x4.9mm_P1.27mm
+SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+20
+9
+LCSC_Library
+GT-USB-7014C
+
+
+0
+16
+13
+LCSC_Library
+HRO_TYPE-C-31-M-12
+
+
+0
+20
+18
+LCSC_Library
+MSK12C02
+MSK12C02-1
+Switch
+0
+7
+4
+LCSC_Library
+Molex-216990_GCT-USB45xx_HRO-TYPE-C-31-M-13x-PiMicro
+
+
+0
+16
+13
+LCSC_Library
+SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm_ThermalVias
+SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX112.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+20
+9
+LCSC_Library
+SOT95P280X145-6N
+
+
+0
+6
+6
+LCSC_Library
+SW_TS-1187A-B-A-B
+
+
+0
+4
+4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -58071,6 +58239,48 @@ Yellow 5381 Series LED
 0
 2
 2
+LiPo batteries
+1S LiPO 80mAh 501040
+
+
+0
+2
+2
+LiPo batteries
+1S LiPO 120mAh 301230
+
+
+0
+0
+0
+LiPo batteries
+1S LiPO 380mAh
+
+
+0
+0
+0
+LiPo batteries
+1S LiPO 380mAh midmount
+
+
+0
+2
+2
+LiPo batteries
+1S LiPO 380mAh midmount (conn)
+
+
+0
+10
+2
+LiPo batteries
+1S LiPO 500mAh
+
+
+0
+0
+0
 Logotypes
 CC_BY_40
 
@@ -58136,6 +58346,20 @@ RefleXion 652
 0
 Logotypes
 X65
+
+
+0
+0
+0
+Logotypes
+qmk logo
+
+
+0
+0
+0
+Logotypes
+star
 
 
 0
