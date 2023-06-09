@@ -1,29 +1,78 @@
-6617067938570
-BlackPill (WeAct v3)
+18342118944748
+Keyboard Controllers
+ArduinoProMicro-BackSide
+
+
+0
+24
+24
+Keyboard Controllers
+ProMicro-FrontSide
+
+
+0
+24
+24
+Keyboard Controllers
+ProMicro_Reversible
+
+
+0
+24
+3
+Keyboard Controllers
+ProMicro_Reversible_orig
+
+
+0
+48
+24
+Keyboard Controllers
+ProMicro_jumpers
+Pro Micro footprint
+promicro ProMicro
+0
+168
+24
+Keyboard Controllers
 WeAct_BlackPill_3
 Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
 module BlluePill Blue Pill header SWD breakout
 0
 40
 40
-BlackPill (WeAct v3)
+Keyboard Controllers
 WeAct_BlackPill_3_reverse_mount
 Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
 module BlluePill Blue Pill header SWD breakout
 0
-40
-40
-BlackPill (WeAct v3)
-YAAJ_WeAct_BlackPill_2
-Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
-module BlluePill Blue Pill header SWD breakout
+38
+38
+Keyboard Controllers
+XCVR_HOLYIOT-18010-NRF52840
+
+
 0
-40
-40
-BlackPill (WeAct v3)
-YAAJ_WeAct_BlackPill_SWD_2
-Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
-module BlluePill Blue Pill header SWD breakout
+55
+55
+Keyboard Controllers
+nRF52840_holyiot_18010
+
+
 0
-44
-44
+55
+55
+Keyboard Controllers
+nRF52840_holyiot_18010_HS_all
+
+
+0
+55
+55
+Keyboard Controllers
+nRF52840_holyiot_18010_HS_simple
+
+
+0
+37
+37
