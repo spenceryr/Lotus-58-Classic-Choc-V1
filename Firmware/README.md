@@ -17,5 +17,3 @@ nanoBoot is a tiny (512k) HID type bootloader derived from the LUFA project, and
 
 ## I want to use QMK instead.
 Well... Go [here](https://github.com/TweetyDaBird/qmk_firmware) then, and have fun!
-
-**Notice!** *Since Lotus 58 Glow currently isnt merged into QMK's main branch, flashing/compiling from source is slightly more advanced, and requires some basic knowledge yourself. The published source is as-is, with no expressed warranty, and no promised timeline on maintaining updates with QMK's updates. If you find errors, feel free to update and fix them, and I will happily test and merge them for all to use.*
