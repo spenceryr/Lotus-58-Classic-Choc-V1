@@ -105,6 +105,8 @@
         "via_dangling": "warning",
         "zones_intersect": "error"
       },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
@@ -187,7 +189,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "FR4_Top_Plate_BLANK.kicad_pro",
+    "filename": "FR4_Top_Plate_ENC.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -257,7 +259,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "FR4_Top_Plate_BLANK.step",
+      "step": "FR4_Top_Plate_ENC.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
