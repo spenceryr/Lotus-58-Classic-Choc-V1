@@ -1,4 +1,4 @@
-### Notice! PCB and Schematic files in the branch 'development' are work in progress, completely untested and in NO way intended to produce any PCB's from! Version numbers in development have no useful meaning and may change without any warning or rime and reason! Beware!
+### Notice! Files in the branch 'release' are tested and completed versions and suitable for building, branches prototype and development are NOT intended for public use, and may change without notice!
 
 # Lotus 58 Glow
 
