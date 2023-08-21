@@ -1,4 +1,4 @@
-### Notice! PCB and Schematic files in the branch 'release' are tested and completed versions, the completed Gerber files are available as releases under that header!
+### Notice! Files in the branch 'release' are tested and completed versions and suitable for building, branches prototype and development are NOT intended for public use, and may change without notice!
 
 # Lotus 58 Glow
 
