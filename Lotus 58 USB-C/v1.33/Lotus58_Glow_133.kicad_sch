@@ -7,7 +7,7 @@
   (title_block
     (title "Lotus 58 Glow")
     (date "2023-09-13")
-    (rev "v1.3.3")
+    (rev "v1.33")
     (company "Markus Knutsson <markus.knutsson@tweety.se>")
     (comment 1 "https://github.com/TweetyDaBird")
     (comment 2 "Licensed under CERN-OHL-S v2 or any superseding version")
