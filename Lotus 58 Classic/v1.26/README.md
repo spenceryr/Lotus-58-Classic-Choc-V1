@@ -1,4 +1,6 @@
-# Lotus 58 v1.23
+# Lotus 58 v1.32
+
+INCOPLETE! WILL BE UPDATED!
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
 
