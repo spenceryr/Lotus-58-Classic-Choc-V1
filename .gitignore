@@ -1,5 +1,6 @@
 *Gerber*
 *Render*
+*production
 
 *.zip
 
@@ -12,6 +13,4 @@
 *.gbl
 *.gbs
 *.drl
-Lotus 58 USB-C/v1.32/production
-*production
-*.step
+*.lck
