@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Lotus58_Glow_133-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Lotus58_Glow_133-altium-import.kicad_sym")(options "")(descr ""))
+)
