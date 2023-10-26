@@ -1,4 +1,6 @@
-# How do I burn nanoBoot to my (ATmega32u4-based) Pro Micros?
+# How do I burn nanoBoot to my Pro Micro controllers?
+
+**Please note that this does NOT apply to RP2040 based controllers at all!!!**
 
 1. Install Arduino IDE 1.8.19 and Pro Micro support:
   - Go to Files -> Preferences;
