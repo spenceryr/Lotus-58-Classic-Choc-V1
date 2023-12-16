@@ -1,14 +1,13 @@
-# Lotus 58 v1.23
+# Lotus 58 Glow
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
 
 Because of this, it was renamed Lotus58, referencing another flower much like the lily in the name Lily58.
 
-# Lotus 58 Glow
-
 ![Lotus 58 Glow](https://preview.redd.it/7apgomy67qf61.jpg?width=4032&format=pjpg&auto=webp&s=ce1f045339149a99311582d44b458c88c2b167a3)
 (photo from reddit by u/bduzik)
 
+# Lotus 58 v1.23
 
 **The second mayor release of the PCB and plates.** 
 Uses winged SK6812mini-E RGB for easier build, along with SK6812 mini RGB for underglow. Revamped RGB to allow easier use of underglow and per-key separate or combined. Added support for battery cut-off switch for easy wireless builds with nice!nano. Several minor tweaks.
