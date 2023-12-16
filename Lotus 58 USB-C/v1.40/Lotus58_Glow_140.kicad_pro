@@ -415,7 +415,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Lotus58_Glow_134.kicad_pro",
+    "filename": "Lotus58_Glow_140.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -502,7 +502,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Lotus58_Glow_131.step",
+      "step": "../../STEP for 3D modeling/Lotus58_Glow_USBC_140.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
