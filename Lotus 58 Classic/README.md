@@ -7,6 +7,10 @@ Because of this, it was renamed Lotus58, referencing another flower much like th
 ![Lotus 58 Glow](https://preview.redd.it/7apgomy67qf61.jpg?width=4032&format=pjpg&auto=webp&s=ce1f045339149a99311582d44b458c88c2b167a3)
 (photo from reddit by u/bduzik)
 
+## TRRS link version - Lotus 58 Classic
+
+This is the original branch of the Lotus 58 Glow design, using the TRRS link. A lot of features have been added along the way for the newer versions.
+
 ## General Specifications
 
 - Layout very similar to the original Lily58 family
