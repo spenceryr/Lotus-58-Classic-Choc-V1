@@ -415,7 +415,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Lotus58_Glow_127.kicad_pro",
+    "filename": "Lotus58_Glow_128.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -480,6 +480,8 @@
       "/Batt": "POWER",
       "/PWR_GLOW": "POWER",
       "/PWR_KEY": "POWER",
+      "Net-(JP1-Pad2)": "POWER",
+      "Net-(JP4-Pad2)": "POWER",
       "VCC": "POWER"
     },
     "netclass_patterns": [

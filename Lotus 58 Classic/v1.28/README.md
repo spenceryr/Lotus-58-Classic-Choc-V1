@@ -1,4 +1,4 @@
-# Lotus 58 v1.23
+# Lotus 58 v1.27
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
 
@@ -10,10 +10,8 @@ Because of this, it was renamed Lotus58, referencing another flower much like th
 (photo from reddit by u/bduzik)
 
 
-**The second mayor release of the PCB and plates.** 
-Uses winged SK6812mini-E RGB for easier build, along with SK6812 mini RGB for underglow. Revamped RGB to allow easier use of underglow and per-key separate or combined. Added support for battery cut-off switch for easy wireless builds with nice!nano. Several minor tweaks.
 
-Fully compatabile with v1.11, physically identical outline for plates etc. and identical Firmware.
+Fully backwards compatible physically identical outline for plates and identical firmware. Updates rewuired to 3D cases for the reset/power switch.
 
 
 # Parts needed
@@ -22,7 +20,7 @@ Fully compatabile with v1.11, physically identical outline for plates etc. and i
 
 | Name of part | Qty. | Optional | Remarks | Aliexpress |
 | ------------ | ---- | -------- | ------- | --------------- |
-| PCB          | 2    | X        | 1,6mm thick | X           |
+| PCB          | 2    | X        | 1,6 mm thick | X           |
 | Top plate         | 2 | X        | Optional layouts for OLED or encoder in top position. | X |
 | Bottom plate         | 2 | X        | X | X |
 | Kailh hotswap socket | 56-58 | X | Qty. depends on layout. | [link](https://www.aliexpress.com/item/-/4001051840976.html?spm=a2g0s.8937460.0.0.6f132e0eKYB5RQ&_ga=2.174414626.1036705865.1612730332-979734211.1611132916&_gac=1.119713146.1611132916.CjwKCAiAxp-ABhALEiwAXm6IyZF-HtTdP3MQioG5GOxLvsaJfBbhqTGIQbmV0LXKDx2MZSDJJJTbaBoCPkoQAvD_BwE) |
@@ -39,8 +37,7 @@ Fully compatabile with v1.11, physically identical outline for plates etc. and i
 | MillMax low profile sockets | 1 | Purchased as 1x64 pin and split | [link] (https://eu.mouser.com/ProductDetail/575-641503)|
 | Rotary Encoder | 0-2 | ✔ | Qty. depends on layout. | [link](https://www.aliexpress.com/item/10000056483250.html?spm=a2g0o.productlist.0.0.64951c5fKcPiug&algo_pvid=b530d9b1-fbd2-4598-bf53-bece1343826f&algo_expid=b530d9b1-fbd2-4598-bf53-bece1343826f-2&btsid=2100bdd016135510210168102eefcc&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | Rotary Encoder Knob | 0-2 | ✔ | One needed for each encoder. Clearance for max 24 mm diameter, pick halfshaft or spline according to encoder choice.  | [link](https://www.aliexpress.com/item/10000056483250.html?spm=a2g0o.productlist.0.0.64951c5fKcPiug&algo_pvid=b530d9b1-fbd2-4598-bf53-bece1343826f&algo_expid=b530d9b1-fbd2-4598-bf53-bece1343826f-2&btsid=2100bdd016135510210168102eefcc&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
-| SK6812 mini-E (3535) | 56-58 | ✔ | Qty. depends on layout. Mini E are winged for easier soldering. | [link](https://www.aliexpress.com/item/4000475685852.html?spm=a2g0o.productlist.0.0.3ec76d0aSbZSMy&algo_pvid=c175ec6d-d797-4bad-885d-dd7ab2025889&algo_expid=c175ec6d-d797-4bad-885d-dd7ab2025889-1&btsid=0b0a01f816148497094017930e33f7&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
-| SK6812 mini (3535) | 12 | ✔ | For underglow, note that Mini E version does not fit here. | [link](https://www.aliexpress.com/item/-/4001361956752.html?spm=a2g0s.8937460.0.0.6f132e0eCg84IE&_ga=2.137862832.1036705865.1612730332-979734211.1611132916&_gac=1.14797764.1611132916.CjwKCAiAxp-ABhALEiwAXm6IyZF-HtTdP3MQioG5GOxLvsaJfBbhqTGIQbmV0LXKDx2MZSDJJJTbaBoCPkoQAvD_BwE) |
+| SK6803/SK6805/SK6812 mini-E (3535) | 12/58 (70) | ✔ | Qty. depends on layout and if used as per-key or underglow (or both). Mini E are winged for easier soldering. | [link](https://www.aliexpress.com/item/4000475685852.html?spm=a2g0o.productlist.0.0.3ec76d0aSbZSMy&algo_pvid=c175ec6d-d797-4bad-885d-dd7ab2025889&algo_expid=c175ec6d-d797-4bad-885d-dd7ab2025889-1&btsid=0b0a01f816148497094017930e33f7&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 
 ## Things to note when ordering PCB's
 ### Finding the Gerber files
