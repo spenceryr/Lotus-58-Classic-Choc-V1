@@ -1,4 +1,4 @@
-# Lotus 58 v1.27
+# Lotus 58 v1.28
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
 
@@ -11,7 +11,7 @@ Because of this, it was renamed Lotus58, referencing another flower much like th
 
 
 
-Fully backwards compatible physically identical outline for plates and identical firmware. Updates rewuired to 3D cases for the reset/power switch.
+Fully backwards compatible physically identical outline for plates and identical firmware. Updates required to 3D cases for the reset/power switch.
 
 
 # Parts needed
@@ -38,6 +38,8 @@ Fully backwards compatible physically identical outline for plates and identical
 | Rotary Encoder | 0-2 | ✔ | Qty. depends on layout. | [link](https://www.aliexpress.com/item/10000056483250.html?spm=a2g0o.productlist.0.0.64951c5fKcPiug&algo_pvid=b530d9b1-fbd2-4598-bf53-bece1343826f&algo_expid=b530d9b1-fbd2-4598-bf53-bece1343826f-2&btsid=2100bdd016135510210168102eefcc&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | Rotary Encoder Knob | 0-2 | ✔ | One needed for each encoder. Clearance for max 24 mm diameter, pick halfshaft or spline according to encoder choice.  | [link](https://www.aliexpress.com/item/10000056483250.html?spm=a2g0o.productlist.0.0.64951c5fKcPiug&algo_pvid=b530d9b1-fbd2-4598-bf53-bece1343826f&algo_expid=b530d9b1-fbd2-4598-bf53-bece1343826f-2&btsid=2100bdd016135510210168102eefcc&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | SK6803/SK6805/SK6812 mini-E (3535) | 12/58 (70) | ✔ | Qty. depends on layout and if used as per-key or underglow (or both). Mini E are winged for easier soldering. | [link](https://www.aliexpress.com/item/4000475685852.html?spm=a2g0o.productlist.0.0.3ec76d0aSbZSMy&algo_pvid=c175ec6d-d797-4bad-885d-dd7ab2025889&algo_expid=c175ec6d-d797-4bad-885d-dd7ab2025889-1&btsid=0b0a01f816148497094017930e33f7&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
+| SRV05-4	ESD | 0-2 | ✔ | Optional but recommended for ESD protection. | [link](https://www.lcsc.com/product-detail/Electrostatic-and-Surge-Protection-TVS-ESD_TECH-PUBLIC-SRV05-4_C558418.html)|
+| MSK12C02 Slide switch | 0-2 | ✔ | Optional RGB select or Power switch | [link](https://www.lcsc.com/product-detail/Slide-Switches_SHOU-HAN-MSK12C02_C431540.html)|
 
 ## Things to note when ordering PCB's
 ### Finding the Gerber files
