@@ -1,4 +1,4 @@
-Change Log Lotus 58 TRRS/Classic
+Change Log Lotus 58 Glow TRRS/Classic
 
 - v1.00 - Initial release
    - This verison unfortunately had various RGB issues. Used through hole mounted SK6812 mini RGB's for both per-key and glow.
