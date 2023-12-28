@@ -1,3 +1,24 @@
 Change Log Lotus 58 TRRS/Classic
 
-v1.11
+- v1.00 - Initial release
+   - This verison unfortunately had various RGB issues. Used through hole mounted SK6812 mini RGB's for both per-key and glow.
+- v1.11 - Intermediary release
+  - RGB issues fixed, improved silkscreen for easier building.
+- v1.23 - Second release
+  - Greatly improved design, per-key moved to SK6812 mini-e winged RGB, and glow remains as surface mounted SK6812 mini.
+- v1.24 - Intermediary release
+   - Added Silkscreen build instructions
+  - Added TRRS ESD protection
+  - Removed i2c resistors
+  - Repositioned reset for easier access
+  - Minor cleanup of routing and silkscreen
+- v1.26 - Third Release
+  - Brings TRRS variant to feature parity with USB C variant by moving ALL RGB to SK6812 mini-e.
+  - All RGB can be soldered, and either glow or key can be selected to be active (drawing power)
+  - Switch positions are the same as USB-C so reset and power switch can now be on both sides of PCB (easier 3D printing)
+  - Better footprints, so easier to solder.
+  - Since the TRRS version already have a power switch, the RGB is an internal switch, placed where you need to disassemble, alternatively hard soldered jumpers.
+- v1.27 - Intermediary release
+  - Improved Silkscreen/build instructions on PCB
+- v1.28 - Fourth release
+  - Possible to select the function of the external slide switch, setting it as a power switch for wireless builds, or to select RGB for a wired build
