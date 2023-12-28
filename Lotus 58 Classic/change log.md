@@ -6,6 +6,7 @@ Change Log Lotus 58 TRRS/Classic
   - RGB issues fixed, improved silkscreen for easier building.
 - v1.23 - Second release
   - Greatly improved design, per-key moved to SK6812 mini-e winged RGB, and glow remains as surface mounted SK6812 mini.
+  - Added support for battery connector and power switch for wireless builds.
 - v1.24 - Intermediary release
    - Added Silkscreen build instructions
   - Added TRRS ESD protection
