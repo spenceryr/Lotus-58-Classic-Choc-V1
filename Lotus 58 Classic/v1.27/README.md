@@ -40,6 +40,8 @@ Fully backwards compatible, physically identical outline for plates etc. and ide
 | SK6812 mini-E (3535) | 12/58 or 70 | ✔ | Qty. depends on layout. Mini E are winged for easier soldering. | [link](https://www.aliexpress.com/item/4000475685852.html?spm=a2g0o.productlist.0.0.3ec76d0aSbZSMy&algo_pvid=c175ec6d-d797-4bad-885d-dd7ab2025889&algo_expid=c175ec6d-d797-4bad-885d-dd7ab2025889-1&btsid=0b0a01f816148497094017930e33f7&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | MSK12C02 | 2 or 4 | ✔ | Used as powerswitch and to select active RGB | [link](www.google.com/search?q=MSK12C02) |
 | YTS-A002 | 2 | ✔ | Used as reset switch | [link](www.google.com/search?q=yts-a002) |
+| SRV05-4	ESD | 2 | ✔ | ESD protection for TRRS link. | [link](https://www.lcsc.com/product-detail/Electrostatic-and-Surge-Protection-TVS-ESD_TECH-PUBLIC-SRV05-4_C558418.html)|
+
 
 
 ## Things to note when ordering PCB's
