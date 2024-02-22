@@ -1,7 +1,7 @@
 Change Log Lotus 58 Glow USB-C
 
 - v1.30 - Initial release
-   - This verison adds an USB-C link between hands instead of the TRRS link. This allows hot-plugging the link without damage.
+   - This version adds an USB-C link between hands instead of the TRRS link. This allows hot-plugging the link without damage.
    - NO support for wirless builds (battery/power switch) as the USB-C link isn't suitable for this.
 - v1.33 - Intermediary release
   - Minor tweaks to the ESD protection circuit
