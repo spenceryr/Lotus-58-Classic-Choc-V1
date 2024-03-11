@@ -8,7 +8,9 @@ Change Log Lotus 58 Glow USB-C
   - The RGB circuit now allows ALL RGB to be soldered in place, and switches the powerline instead of the data line as previously.
   - ALL RGB uses SK6812 mini-e
   - Reset switch and slide switch is moved for better 3D printed cases. 
-- v1.40 - Second release
+- v1.40 - Second major release
   - Moved serial data to D+/- for better cable compatibility.
   - Added solder jumpers for RGB selection without switch
+- v1.41 - Intermediary release
+  - Corrected minor silkscreen inconsistencies.
 
