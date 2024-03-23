@@ -29,6 +29,10 @@ Because of this, it was renamed Lotus58, referencing another flower much like th
 
 ![Layout variations](https://raw.githubusercontent.com/4EBOOT/Lotus58/Glow/Glow/Image/layout_variations.png "Layout Variations")
 
+## 3D-printed Cases
+**There are a couple of 'official' commissioned designs for 3D printed cases for the Lotus 58 Glow, available in a separate Git [here](https://github.com/TweetyDaBird/Lotus-Cases).** 
+
+And you can find several more made by users using Google, and/or by joining the Discord channel and chatting to the builders/designers and users.
 
 ## Things to note when ordering PCB's
 ### Finding the Gerber files
