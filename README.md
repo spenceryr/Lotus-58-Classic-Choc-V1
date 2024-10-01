@@ -2,7 +2,7 @@
 Please use the Gerber files for producing PCB's, found under the header 'Releases' instead. Also please note the difference between a 'Pre-release' (partially/fully untested, basically what I order a prototype PCB from to test) and a full actual 'Release' which is fully tested, built and ready to be used to produce PCB's.
 
 # Lotus 58 Glow - Classic
-#### Lotus Classic is the wired designs of the Lotus keyboard. Wireless with BLE and 2.4Ghz dongled wireless reside in other repositories.
+#### Lotus 58 Classic is the wired designs of the Lotus keyboard. Wireless with BLE and 2.4Ghz dongled wireless reside in other repositories.
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
 
