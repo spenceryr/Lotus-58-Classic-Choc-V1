@@ -48,11 +48,16 @@ The gerber files are where they belong, zipped up in releases, look under that h
 
 If ordering from [JLCPCB](https://www.jlcpcb.com) the plate Gerber files include a reference putting the added serial etc on a breakaway part for a clean look with minimal cost, if using another manufacturer it's possible they have additional fee's for removing the extra text, or you should consider plotting the Gerber files yourself with the correct reference for your manufacturer. Otherwise use the standard settings from JLPCB.
 
+## Build guide
+**Some basic build instructions are in the [WIKI](https://github.com/TweetyDaBird/Lotus-58-Classic/wiki), and I really try to keep these updated.** But please keep in mind that whenever these instructions conflict with information on the PCB silkscreen, the silkscreen is and always will be the correct source of information! It's always updated with the version, and the most current information for the PCB version in question. 
+
+**The intent has always been that the keyboard should be able to be fully built with some very basic soldering skills and the instructions on the silkscreen.**
+
+### Discord for further build help and discussions!
+
+<a href="https://discord.gg/G6QzcJQUnm"><img alt="Discuss on Discord" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/625eb604bb8605784489d361_Discord-Logo%2BWordmark-Color%20(1).png" width="219" height="60"/></a>
+
 ## Buy a kit!
 I sell complete kits, making it easy to build your keyboard, and it also supports prototypes for new wacky ones. 
 
 <a href="https://lectronz.com/stores/tweetys-wild-thinking"><img alt="Buy it on Lectronz" src="https://lectronz.com/static/badges/buy-it-on-lectronz-small.png" /></a>
-
-## Discord for build help and discussions!
-
-<a href="https://discord.gg/G6QzcJQUnm"><img alt="Discuss on Discord" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/625eb604bb8605784489d361_Discord-Logo%2BWordmark-Color%20(1).png" width="219" height="60"/></a>
